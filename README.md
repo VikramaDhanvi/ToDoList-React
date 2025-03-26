@@ -53,11 +53,7 @@ A modern and responsive To-Do app built using **React**, **Vite**, **Redux Toolk
 
 ---
 
-## 📸 Screenshots
 
-> _(Add your screenshots here later for better visual appeal!)_
-
----
 
 ## 💻 Setup & Run Locally
 
