@@ -1,18 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
 # 📝 Advanced React To-Do Application
+
+🔗 **Live Site:** [https://VikramaDhanvi.github.io/ToDoList-React](https://VikramaDhanvi.github.io/ToDoList-React)
 
 A modern and responsive To-Do app built using **React**, **Vite**, **Redux Toolkit**, and **Weather API integration**. This project simulates authentication, manages tasks with priority and deadlines, and fetches real-time weather for smart task planning.
 
@@ -53,7 +41,11 @@ A modern and responsive To-Do app built using **React**, **Vite**, **Redux Toolk
 
 ---
 
+## 📸 Screenshots
 
+![Vite + React and 2 more pages - Personal - Microsoft​ Edge 3_26_2025 10_52_19 PM](https://github.com/user-attachments/assets/b8487838-f4ba-4181-858c-4efdf272a207)
+
+---
 
 ## 💻 Setup & Run Locally
 
@@ -67,4 +59,3 @@ npm install
 
 # Start development server
 npm run dev
-
