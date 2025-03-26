@@ -6,10 +6,14 @@ const Auth = () => {
   const dispatch = useDispatch()
   const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
 
+  const handleAuth = () => {
+    dispatch(isAuthenticated ? logout() : login())
+  }
+
   return (
-    <div>
-      <button onClick={() => dispatch(isAuthenticated ? logout() : login())}>
-        {isAuthenticated ? 'Logout' : 'Login'}
+    <div className="auth" style={{ textAlign: 'center', marginBottom: '2rem' }}>
+      <button className="login-button" onClick={handleAuth}>
+        <div><span>{isAuthenticated ? 'Logout' : 'Login'}</span></div>
       </button>
     </div>
   )
